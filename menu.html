@@ -1,0 +1,220 @@
+<!--
+    Menu webpage for Bunny and Beans
+    
+-->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Bunny and Beans Menu</title>
+    <link rel="stylesheet" href="menuStyle.css">
+</head>
+
+<body>
+    <!--Header container-->
+    <header d>
+        <div class="containerr">
+            <div id="branding">
+                <li>
+                    <e href="aboutus.html">Promotions, new products, original recipes... subscribe to our newsletter!
+                    </e>
+                </li>
+            </div>
+            <nav>
+                <ul>
+                    <li>
+                        <e href="signin.html">Sign In</e>
+                    </li>
+                    <li>
+                        <e href="SignUp.html">Sign Up</e>
+                    </li>
+                    </b>
+                </ul>
+            </nav>
+    </header d>
+
+    <header>
+        <div class="container">
+            <div id="branding">
+                <h1>
+                    <li><a href="index.html"> <img src="./imgjpeg/a2.png"></a></li>
+                </h1>
+            </div>
+            <nav>
+                <ul>
+                    <b>
+                        <li><a href="aboutus.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="reservation.html">Reservation</a></li>
+                        <li><a href="recipe.html">Recipes</a></li>
+                        <li><a href="adoption.html">Adoption</a></li>
+                        <li><a href="feedback.html">Feedback</a></li>
+                    </b>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!--MENU IMAGE AND LABEL-->
+    <div class="menu-image">
+        <img src="./images/a6.jpg" display=inline-block>
+        <div class="text-on-image">Menu</div>
+    </div>
+
+    <!----------------------------------------------------------------------------------------------------------->
+    <!-- MENU Container         CHOOSE WHITE OR LIGHT GREY-->
+    <!--BUTTON HOVER FEATURE
+        <input type="image" src="ORIGINAL-IMAGE.png" data-alt-image="ALT-IMAGE" />
+    -->
+    <section class="menu-container">
+        <button class="tablink" onclick="openPage('All', this, 'white')" id="defaultOpen">All</button>
+        <button class="tablink" onclick="openPage('Hot Drinks', this, 'white')">Hot Drinks</button>
+        <button class="tablink" onclick="openPage('Cold Drinks', this, 'light grey')">Cold Drinks</button>
+        <button class="tablink" onclick="openPage('Food', this, 'light grey')">Food</button>
+        <br>
+        <div id="All" class="tabcontent">
+            <table class="center">
+                <tr>
+                    <td><button id="eButton"><img src="./images/esspresso.jpg" width="150" height=150>Espresso</button>
+                    </td>
+                    <td><button id="aButton"><img src="./images/americano.jpg" width="150" height=150>Americano</button>
+                    </td>
+                    <td><button id="cButton"><img src="./images/cappuccino.jpg" width="150" height=150>Cappuccino</td>
+                    <td><button id="lButton"><img src="./images/latte.jpg" width="150" height=150>Latte</td>
+                </tr>
+                <tr>
+                    <td><button id="hButton"><img src="./images/hot coffee.jpg" width="150" height=150><br>Coffee
+                    </td>
+                    <td><button id="ITButton"><img src="./images/iced tea.jpg" width="150" height=150><br>Iced
+                            Tea</button></td>
+                    <td><button id="ICButton"><img src="./images/iced coffee.jpg" width="150" height=150><br>Iced
+                            Coffee</button>
+                    </td>
+                    <td><button id="TaButton"><img src="./images/tarts.jpg" width="150" height=150><br>Fruit
+                            Tarts</button></td>
+                </tr>
+                <tr>
+                    <td><button id="ciButton"><img src="./images/cinnamonbuns.jpg" width="150" height=150><br>Cinnamon
+                            Rolls</button>
+                    </td>
+                    <td><button id="scButton"><img src="./images/scones.jpg" width="150" height=150><br>Scones</button>
+                    </td>
+                </tr>
+            </table>
+
+        </div>
+        <div id="Hot Drinks" class="tabcontent">
+            <table class="center">
+                <tr>
+                    <td><button id="EsspressoButton"><img src="./images/esspresso.jpg" width="150"
+                                height=150><br>Espresso</button>
+                    </td>
+                    <td><button id="AmericanoButton"><img src="./images/americano.jpg" width="150"
+                                height=150><br>Americano</button>
+                    </td>
+                    <td><button id="CapButton"><img src="./images/cappuccino.jpg" width="150" height=150><br>Cappuccino
+                    </td>
+                    <td><button id="LatteButton"><img src="./images/latte.jpg" width="150" height=150><br>Latte</td>
+                </tr>
+                <tr>
+                    <td><button id="HotCButton"><img src="./images/hot coffee.jpg" width="150" height=150><br>Coffee
+                    </td>
+                </tr>
+            </table>
+        </div>
+        <div id="Cold Drinks" class="tabcontent">
+            <table class="center">
+                <tr>
+                    <td><button id="IceTButton"><img src="./images/iced tea.jpg" width="150" height=150><br>Iced
+                            Tea</button></td>
+                    <td><button id="IceCButton"><img src="./images/iced coffee.jpg" width="150" height=150><br>Iced
+                            Coffee</button>
+                </tr>
+            </table>
+        </div>
+        <div id="Food" class="tabcontent">
+            <table class="center">
+                <tr>
+                    <td><button id="TartButton"><img src="./images/tarts.jpg" width="150" height=150><br>Fruit
+                            Tarts</button></td>
+                    <td><button id="CinnButton"><img src="./images/cinnamonbuns.jpg" width="150" height=150><br>Cinnamon
+                            Rolls</button>
+                    </td>
+                    <td><button id="SconesButton"><img src="./images/scones.jpg" width="150"
+                                height=150><br>Scones</button>
+                    </td>
+                </tr>
+            </table>
+        </div>
+    </section>
+    <br><br><br>
+    <section id="newsletter">
+        <div class="container">
+            <h1>Subscribe to our newsletter :</h1>
+            <form>
+
+                <br>
+                <input type="email" placeholder="Enter email">
+                <button type="submit" class="button_1">Submit</button>
+            </form>
+            <form2>
+                <br>
+                <button type="follow" class="button_1">Follow Us</button>
+            </form2>
+            <br> <br> <br> <br>
+            <br>
+        </div>
+
+
+    </section>
+    <!-------------------------------------FOOTER--------------------------------->
+    <header>
+        <div class="container">
+            <div id="branding">
+                <li><a href="aboutus.html">FAQs</a></li>
+                <li><a href="menu.html">Contact Us</a></li>
+                <li><a href="reservation.html">Privacy Policy</a></li>
+                <li><a href="recipe.html">Terms of Use</a></li>
+            </div>
+            <nav>
+                <ul>
+                    <b>
+
+                        <br><br><br><br>
+
+
+                    </b>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+
+    <!---------------------------------------- MODAL -------------------------------------->
+    <!-- The Modal -->
+    <div id="EspressoModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <h1><em>Espresso</em></h1>
+            <table>
+                <tr>
+                    <td><img src="./images/esspresso.jpg"></td>
+                    <td>
+                        <p>So much coffee, so much.</p>
+                    </td>
+                </tr>
+            </table>
+            <p>So much coffee</p>
+            <p>So so much.</p>
+            <br><br><br>
+        </div>
+    </div>
+    <script type="text/javascript" src="menuFunc.js"></script>
+
+
+
+</body>
+
+</html>
